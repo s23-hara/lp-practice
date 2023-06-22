@@ -7,9 +7,6 @@
 .keyvisual {
   text-align: center;
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
-}
-
-.top-inner {
   padding: 400px 0;
 }
 
@@ -27,12 +24,16 @@
 }
 
 .work img {
-  width: 250px;
+  max-width: 250px;
   height: auto;
+  flex-basis: 40%;
 }
 
 .work-inner {
   display: flex;
+}
+
+.work {
   padding-top: 50px;
 }
 
@@ -44,6 +45,7 @@ h3 {
 .sentence {
   text-align: center;
   padding-left: 100px;
+  flex-basis: 60%;
 }
 
 .sentence h3 {
@@ -88,7 +90,7 @@ h3 {
   opacity: 1.0;
 }
 
-.skills-inner {
+.skills {
   padding-bottom: 70px;
 }
 
@@ -126,7 +128,7 @@ h3 {
   background-color: #e0efff;
 }
 
-.plan-inner {
+.plan {
   padding-bottom: 50px;
 }
 
@@ -136,6 +138,15 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
 }
 
 .logo {
@@ -156,6 +167,7 @@ h3 {
   border: none;
   font-weight: bold;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .button:hover {
