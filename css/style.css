@@ -24,9 +24,8 @@
 }
 
 .work img {
-  max-width: 250px;
   height: auto;
-  flex-basis: 40%;
+  max-width: 40%;
 }
 
 .work-inner {
@@ -45,7 +44,7 @@ h3 {
 .sentence {
   text-align: center;
   padding-left: 100px;
-  flex-basis: 60%;
+  max-width: 60%;
 }
 
 .sentence h3 {
@@ -75,8 +74,8 @@ h3 {
 .skills .image-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 100px;
-  justify-items: center;
+  gap: 100px;
+  justify-items: center stretch;
 }
 
 .skills .image-container img {
@@ -92,6 +91,10 @@ h3 {
 
 .skills {
   padding-bottom: 70px;
+}
+
+.skills a {
+  display: block;
 }
 
 .plan {
@@ -213,4 +216,8 @@ footer .inner p {
   font-size: 10px;
   letter-spacing: 0.5px;
   padding: 20px 0;
+}
+
+main {
+  padding-top: 80px;
 }
