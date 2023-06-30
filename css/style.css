@@ -25,11 +25,13 @@
 
 .work img {
   height: auto;
+  width: 250px;
   max-width: 40%;
 }
 
 .work-inner {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .work {
@@ -64,6 +66,7 @@ h3 {
 
 .skills {
   background: #fff;
+  padding-bottom: 70px;
 }
 
 .skills h3,.plan h3 {
@@ -71,7 +74,7 @@ h3 {
   padding: 50px 0;
 }
 
-.skills .image-container {
+.skills .image-container .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 100px;
@@ -87,14 +90,6 @@ h3 {
 
 .skills .image-container img:hover {
   opacity: 1.0;
-}
-
-.skills {
-  padding-bottom: 70px;
-}
-
-.skills a {
-  display: block;
 }
 
 .plan {
