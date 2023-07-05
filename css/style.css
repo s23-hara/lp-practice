@@ -190,7 +190,6 @@ header {
 .sns-nav {
   display: flex;
   justify-content: space-between;
-  padding: 25px 0;
 }
 
 .sns-nav i {
@@ -199,7 +198,7 @@ header {
   width: 185px;
   text-align: center;
   transition: background-color 0.5s ease;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 .sns-nav i:hover {
@@ -283,12 +282,19 @@ main {
   }
 
   .skills .image-container .grid {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 0px;
+    text-align: center;
+  }
+
+  .skills .image-container .grid img {
+    width: 300px;
+    height: 300px;
   }
   
-  .skills .image-container .grid:nth-child(3n) {
-    margin-bottom: 80px;
+  li:nth-child(3) {
+    padding-bottom: 80px;
   }
   
   .sentence p {
