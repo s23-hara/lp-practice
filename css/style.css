@@ -262,17 +262,8 @@ main {
     width: 97%;
   }
 
-  .keyvisual .top-inner {
-    padding: 200px 0;
-  }
-
-  .top-inner h1 {
-    font-size: 40px;
-  }
-
-  .top-inner h2 {
-    font-size: 25px;
-    padding-top: 20px;
+  .keyvisual {
+    padding: 250px 0;
   }
 
   .work-inner {
@@ -315,6 +306,15 @@ main {
     font-size: 8px;
     padding: 10px 0;
   }
+
+  .top-inner h1 {
+    font-size: 50px;
+  }
+
+  .top-inner h2 {
+    font-size: 40px;
+  }
+  
 }
 
 /*SPのレスポンシブ対応*/
@@ -332,17 +332,8 @@ main {
     margin-left: auto;
   }
 
-  .keyvisual .top-inner {
+  .keyvisual {
     padding: 200px 0;
-  }
-
-  .top-inner h1 {
-    font-size: 40px;
-  }
-
-  .top-inner h2 {
-    font-size: 30px;
-    padding-top: 20px;
   }
   
   th {
@@ -362,6 +353,19 @@ main {
     width: 100%;
     padding: 50px 0;
   }
+
+.top-inner h1 {
+  font-size: 40px;
+  color: #6ba7eb;
+  font-weight: 700;
+}
+
+.top-inner h2 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 30px;
+}
   
 }
   
