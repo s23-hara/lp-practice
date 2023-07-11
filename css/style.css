@@ -92,6 +92,7 @@ h3 {
   height: auto;
   opacity: 0.7;
   transition: opacity 0.7s ease;
+  vertical-align: middle;
 }
 
 .skills .image-container img:hover {
@@ -221,7 +222,7 @@ footer .inner p {
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 75px;
 }
 
 .hamburger-icon {
@@ -284,7 +285,7 @@ main {
     height: 300px;
   }
   
-  li:nth-child(3) {
+  li:nth-child(3n) {
     padding-bottom: 80px;
   }
   
@@ -354,18 +355,22 @@ main {
     padding: 50px 0;
   }
 
-.top-inner h1 {
-  font-size: 40px;
-  color: #6ba7eb;
-  font-weight: 700;
-}
+  .top-inner h1 {
+    font-size: 40px;
+    color: #6ba7eb;
+    font-weight: 700;
+  }
 
-.top-inner h2 {
-  font-size: 30px;
-  color: #ffffff;
-  font-weight: 700;
-  margin-top: 30px;
-}
+  .top-inner h2 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  .grid-table {
+    width: 100%;
+  }
   
 }
   
