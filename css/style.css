@@ -369,8 +369,8 @@ main {
   }
 
   .grid-table {
-    width: 100%;
+    table-layout: fixed;
   }
-  
+
 }
   
