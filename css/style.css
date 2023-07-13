@@ -347,12 +347,19 @@ main {
   }
   
   .sns-nav {
-    display: block;
+    display:flex;
+    flex-flow: column;
+    justify-content:space-between;
+    width: 100%;
   }
 
   .sns-nav i {
-    width: 100%;
     padding: 50px 0;
+    width: 100%;
+  }
+
+  .container {
+    padding: 50px 15px;
   }
 
   .top-inner h1 {
